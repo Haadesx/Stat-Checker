@@ -1,18 +1,13 @@
-//
-//  Stat_CheckApp.swift
-//  Stat Check
-//
-//  Created by Varesh Patel on 11/23/25.
-//
-
 import SwiftUI
 import SwiftData
 
 @main
 struct Stat_CheckApp: App {
+    @StateObject private var systemMonitor = SystemMonitor()
+    
     var sharedModelContainer: ModelContainer = {
         let schema = Schema([
-            Item.self,
+            StatLog.self,
         ])
         let modelConfiguration = ModelConfiguration(schema: schema, isStoredInMemoryOnly: false)
 
@@ -26,7 +21,18 @@ struct Stat_CheckApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environmentObject(systemMonitor)
+                .onAppear {
+                    systemMonitor.setModelContext(sharedModelContainer.mainContext)
+                }
         }
+        .windowStyle(.hiddenTitleBar)
         .modelContainer(sharedModelContainer)
+        
+        MenuBarExtra("Stat Check", systemImage: "chart.bar.fill") {
+            MenuBarView()
+                .environmentObject(systemMonitor)
+        }
+        .menuBarExtraStyle(.window)
     }
 }
