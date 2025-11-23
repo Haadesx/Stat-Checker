@@ -48,12 +48,8 @@ Don't just see what's happening now—understand your workflow.
 ## 📸 Screenshots
 
 <div align="center">
-  <img src="https://via.placeholder.com/800x500?text=Dashboard+View" alt="Dashboard" width="800"/>
-  <br/><br/>
-  <img src="https://via.placeholder.com/800x500?text=Process+Manager" alt="Process Manager" width="800"/>
+  <img src="Stat Check/screenshots/dashboard.png" alt="Dashboard" width="800"/>
 </div>
-
-> *Tip: Replace these placeholders with actual screenshots of your app to show off the design!*
 
 ---
 
