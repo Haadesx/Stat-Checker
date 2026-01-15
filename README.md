@@ -10,7 +10,10 @@
 
 <br />
 
-**Stat Check** is a beautifully crafted, native macOS application designed to give you deep insights into your Mac's performance. Built with **SwiftUI** and **Apple Silicon** in mind, it combines powerful monitoring with a stunning glassmorphic interface.
+**Stat Check** is a beautifully crafted, native macOS application designed to give you deep insights into your Mac's performance. 
+
+### Why Stat Check?
+I built this project because I wanted a **Windows-like Task Manager for macOS**. While Activity Monitor is functional, I found it cluttered and unintuitive for quick checks. **Stat Check** bridges that gap—combining powerful monitoring with the clean, glanceable design that users love, all wrapped in a stunning glassmorphic interface built for Apple Silicon.
 
 [**Download Now**](https://github.com/Haadesx/Stat-Checker/releases/latest) · [Report Bug](https://github.com/Haadesx/Stat-Checker/issues) · [Request Feature](https://github.com/Haadesx/Stat-Checker/issues)
 
@@ -108,6 +111,14 @@ Contributions are what make the open-source community such an amazing place to l
 Distributed under the MIT License. See `LICENSE` for more information.
 
 ---
+
+<div align="center">
+
+## 👨‍💻 About the Developer
+
+I'm **Varesh Patel**, an emerging macOS developer with a passion for building native, high-performance utilities that enhance the Mac experience. 
+
+My goal is to create software that feels "Apple-native" yet brings fresh, innovative ideas to the platform. **Stat Check** is a testament to that vision—taking a mundane utility and transforming it into a beautiful, enjoyable part of your workflow.
 
 <div align="center">
 
