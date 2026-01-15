@@ -29,7 +29,7 @@ Real-time monitoring for key system metrics with smooth charting.
 
 ### ⚡️ Process Manager
 Search running processes instantly and sort by CPU, memory, or name.
-*   **Process Inspection**: View detailed stats for every running application.
+*   **Process Inspection**: View detailed stats for running applications.
 *   **Sorting**: Quickly identify resource-heavy applications.
 *   **Search**: Filter processes by name instantly.
 
@@ -39,7 +39,7 @@ Track long-term system usage trends using **SwiftData**.
 *   **Long-term Trends**: View CPU and Memory usage patterns over the last 24 hours, 7 days, or 30 days.
 
 ### 💎 Native Design
-*   **Glassmorphism**: Native macOS materials that blend with your specific wallpaper.
+*   **Glassmorphism**: Native macOS materials that blend naturally with the desktop.
 *   **Menu Bar Widget**: A compact companion for quick status checks.
 
 ---
@@ -60,13 +60,13 @@ Track long-term system usage trends using **SwiftData**.
 
 ---
 
-## � Security & Privacy
+## 🔒 Security & Privacy
 
 **Stat Check** runs entirely locally. It does not collect analytics or transmit data.
 
-*   **Local Processing**: All stats and process data are processed on your machine.
-*   **System APIs**: Uses standard macOS APIs (`libproc`, `Mach Kernel`, `BSD`) to read system stats.
-*   **App Sandbox**: Note that the **App Sandbox must be disabled** to build this from source. This is required because inspecting other running processes (via `libproc`) and reading global system stats is a privileged action restricted by the Sandbox.
+*   **Local Processing**: All monitoring and charts are computed on-device.
+*   **System Interfaces**: Uses macOS system APIs (e.g., `libproc` and Mach host statistics) to read system and process metrics.
+*   **App Sandbox**: Note that the **App Sandbox must be disabled** to build this from source. This is required because enumerating and inspecting other running processes via `libproc` is a privileged action restricted by the Sandbox.
 
 ---
 
@@ -93,11 +93,11 @@ Track long-term system usage trends using **SwiftData**.
 *   **Language**: Swift 5.9
 *   **UI Framework**: SwiftUI
 *   **Charts**: Swift Charts
-*   **Persistence**: SwiftData (for historical logs)
+*   **Persistence**: SwiftData (historical logs)
 *   **System APIs**: 
     *   `libproc` (Process enumeration)
-    *   `Mach Kernel API` (CPU/Memory stats)
-    *   `BSD Sockets / ifaddrs` (Network stats)
+    *   `Mach host statistics` (CPU/Memory)
+    *   `getifaddrs` (Network interfaces)
 
 ---
 
