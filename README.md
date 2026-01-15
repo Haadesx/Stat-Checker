@@ -51,7 +51,9 @@ Don't just see what's happening now—understand your workflow.
 
 ## 🎥 Demo
 
-[**Watch the Demo Video**](demo.mov)
+<div align="center">
+  <img src="demo.gif" alt="App Demo" width="800"/>
+</div>
 
 ---
 
