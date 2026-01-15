@@ -43,6 +43,13 @@ Don't just see what's happening now—understand your workflow.
 *   **Menu Bar Widget**: A compact, always-visible companion for quick checks.
 *   **Dark Mode**: Fully optimized for late-night coding sessions.
 
+
+---
+
+## 🎥 Demo
+
+[**Watch the Demo Video**](demo.mov)
+
 ---
 
 ## 📸 Screenshots
